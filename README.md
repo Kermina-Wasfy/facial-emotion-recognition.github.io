@@ -1,1 +1,1 @@
-# facial-emotion-recognition.github.io
+Set of images of different emotions passes through three stages: training stage, validation stage and test stage then it chooses image randomly and writes label according to the emotion detected using CNN.
