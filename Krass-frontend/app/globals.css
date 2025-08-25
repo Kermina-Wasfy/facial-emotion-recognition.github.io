@@ -12,3 +12,9 @@
     padding-inline: 1rem;
   }
 }
+
+
+button,
+a {
+  @apply cursor-pointer;
+}
