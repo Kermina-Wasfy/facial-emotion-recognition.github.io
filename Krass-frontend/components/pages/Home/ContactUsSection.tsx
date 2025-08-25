@@ -56,7 +56,7 @@ export default function ContactSection() {
             >
               {/* Name */}
               <div className="flex flex-col gap-2">
-                <label className="text-white text-sm font-medium">Name</label>
+                <label className="text-white text-lg">Name*</label>
                 <input
                   {...register("name")}
                   type="text"
@@ -70,7 +70,7 @@ export default function ContactSection() {
 
               {/* Email */}
               <div className="flex flex-col gap-2">
-                <label className="text-white text-sm font-medium">Email</label>
+                <label className="text-white text-lg">Email*</label>
                 <input
                   {...register("email")}
                   type="email"
@@ -84,8 +84,8 @@ export default function ContactSection() {
 
               {/* Phone */}
               <div className="flex flex-col gap-2">
-                <label className="text-white text-sm font-medium">
-                  Phone Number
+                <label className="text-white text-lg">
+                  Phone Number*
                 </label>
                 <input
                   type="tel"
@@ -118,8 +118,8 @@ export default function ContactSection() {
 
               {/* Message */}
               <div className="flex flex-col gap-2">
-                <label className="text-white text-sm font-medium">
-                  Message
+                <label className="text-white text-lg">
+                  Message*
                 </label>
                 <textarea
                   {...register("message")}

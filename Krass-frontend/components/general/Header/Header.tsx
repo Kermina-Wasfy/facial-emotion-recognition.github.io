@@ -8,7 +8,7 @@ export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <header className="bg-[#252424] shadow-md sticky top-0 z-50 w-full mx-auto overflow-x-hidden  ">
+    <header className="bg-[#252424] shadow-md sticky top-0 z-50 w-full mx-auto ">
       <div className="container py-4">
         {/* Desktop Header */}
         <div
@@ -43,8 +43,8 @@ export default function Header() {
               <Image
                 src="/logo.svg"
                 alt="Krass Logo"
-                width={80}
-                height={80}
+                width={100}
+                height={100}
                 className="cursor-pointer"
               />
             </Link>

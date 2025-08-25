@@ -10,13 +10,13 @@ export default function Footer() {
           <Image
             src="/logo.svg"
             alt="Krass Design Logo"
-            width={170}
-            height={120}
+            width={190}
+            height={150}
             className="object-contain"
           />
 
           {/* Columns */}
-          <div className="grid grid-cols-3 gap-2 mt-6 text-sm">
+          <div className="grid grid-cols-3 gap-0 mt-6 text-lg">
             {/* First column */}
             <ul className="flex flex-col gap-8">
               <li>
@@ -139,7 +139,7 @@ export default function Footer() {
             <hr className="border-t w-[400px]" />
 
             {/* Copyright */}
-            <p className=" text-xs">
+            <p className=" text-md">
               © Copyright 2022, All Rights Reserved by{" "}
               <Link
                 href="https://innovationscope.com"
@@ -157,8 +157,8 @@ export default function Footer() {
           <Image
             src="/footer-bg.png"
             alt="Decor Image"
-            width={430}
-            height={400}
+            width={500}
+            height={450}
             className="object-contain"
           />
         </div>

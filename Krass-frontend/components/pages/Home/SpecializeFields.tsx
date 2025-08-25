@@ -89,11 +89,11 @@ export default function ServicesSection() {
   </button>
 
   <div className="flex items-center gap-2">
-    <span className="text-3xl italic relative -top-2">
+    <span className="text-4xl italic relative -top-2 font-charis">
       {String(currentPage + 1).padStart(2, "0")}
     </span>
     <span className="block w-px h-8 bg-white"></span>
-    <span className="text-3xl italic relative top-2">
+    <span className="text-4xl italic relative top-2 font-charis">
       {String(totalPages).padStart(2, "0")}
     </span>
   </div>

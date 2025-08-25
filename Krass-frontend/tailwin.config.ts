@@ -37,6 +37,7 @@ const config = {
         fontFamily: {
           sans: ["var(--font-segoe-ui-bold)", "sans-serif"],
           sevillana: ["var(--font-sevillana)", "cursive"],
+          charis: ['"Charis SIL"', 'serif'],
         },
         secondary: {
           DEFAULT: "hsl(var(--secondary))",
