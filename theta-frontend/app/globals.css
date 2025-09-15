@@ -1,0 +1,18 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+.container {
+  padding-inline: 6.25rem;
+  max-width: 100% !important;
+}
+
+@media (max-width: 1024px) {
+  .container {
+    padding-inline: 1rem;
+  }
+}
+
+button,
+a, Link {
+  @apply cursor-pointer;
+}
