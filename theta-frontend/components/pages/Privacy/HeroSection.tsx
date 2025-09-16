@@ -9,9 +9,6 @@ export default function PrivacyPolicyPage() {
     queryFn: getPrivacyPolicy,
   });
 
-  if (isLoading) {
-    return <div className="p-10 text-center">Loading...</div>;
-  }
 
   if (error) {
     return <div className="p-10 text-center text-red-500">Something went wrong!</div>;

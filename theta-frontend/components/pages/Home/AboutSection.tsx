@@ -10,13 +10,7 @@ export default function AboutSection() {
     queryFn: getHomeData,
   });
 
-  if (isLoading) {
-    return (
-      <section id="about" className="py-20">
-        <div className="container mx-auto text-center">Loading...</div>
-      </section>
-    );
-  }
+
 
   if (error) {
     return (

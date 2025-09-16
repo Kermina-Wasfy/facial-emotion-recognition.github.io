@@ -11,9 +11,7 @@ export default function ContactUsSection() {
     queryFn: getHomeData,
   });
 
-  if (isLoading) {
-    return <div className="p-10 text-center">Loading...</div>;
-  }
+  
 
   if (error) {
     return (

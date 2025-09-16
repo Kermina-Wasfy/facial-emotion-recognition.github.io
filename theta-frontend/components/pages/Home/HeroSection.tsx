@@ -24,8 +24,7 @@ export default function HeroSection() {
     queryFn: getMobileApps,
   });
 
-  if (homeLoading || appsLoading)
-    return <div className="text-center py-10">Loading...</div>;
+
 
   if (homeError || appsError)
     return (
